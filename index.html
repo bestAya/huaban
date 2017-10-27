@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画板</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+<body>
+    <main>
+    <ul class="top">
+        <li id="line" class="iconfont icon-xian"></li>
+        <li id="rectangle" class="iconfont icon-juxing"></li>
+        <li id="polygon" class="iconfont icon-duobianxing"></li>
+        <li id="megagon" class="iconfont icon-wujiaoxing2"></li>
+        <li id="circle" class="iconfont icon-yuan"></li>
+        <li id="pencil" class="iconfont icon-pan_icon"></li>
+        <li id="eraser" class="iconfont icon-eraser"></li>
+        <li id="font" class="iconfont icon-ziti"></li>
+    </ul>
+    <div class="pz">
+        <canvas width="1354" height="427"></canvas>
+        <div class="eras"></div>
+        <div class="opcity"></div>
+        <div class="cropobj"></div>
+        </div>
+        <ul class="bottom">
+            <li id="stroke">描边</li>
+            <li id="sc"><input type='color' width="50px" height="50px"></li>
+            <li id="fill">填充</li>
+            <li id="fc"><input type='color' width="50px" height="50px"></li>
+            <li id="crop" class="iconfont icon-ai50"></li>
+            <li id="make" class="iconfont icon-xinjian"></li>
+            <li id="save" class="iconfont icon-baocun"><a href=""></a></li>
+            <li id="clear" class="iconfont icon-qingkong"></li>
+            <li id="reverse" class="iconfont icon-xianfanxiang"></li>
+
+        </ul>
+        
+        
+    </main>
+</body>
+<script src="js/palette.js"></script>
+<script src="js/index.js"></script>
+</html>
